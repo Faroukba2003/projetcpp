@@ -4,6 +4,8 @@
 #include "connection.h"
 int main(int argc, char *argv[])
 {
+    QString message = "Ceci est un message simple.";
+
     QApplication a(argc, argv);
     MainWindow w;
     Connection c;
